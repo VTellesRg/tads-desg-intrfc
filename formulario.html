@@ -11,42 +11,52 @@
 
 <body>
     <header>
-        <div class="logo">Meu Logo</div>
+        <div class="logo"><img src="images/logo.jpg"></div>
         <nav>
             <ul>
                 <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="formulario.html">Formulário</a></li>
-                <!-- Adicione links para outras páginas conforme necessário -->
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="formulario.html">Increva-se</a></li>
+                <li><a href="pagina3.html">Página 3</a></li>
             </ul>
         </nav>
     </header>
+    
 
     <main>
         <section>
             <h1>Preencha o Formulário</h1>
             <form>
-                <fieldset>
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
+                <fieldset class="fieldset">
+                    <label class="label" for="nome">Nome:</label>
+                    <input class="input" type="text" id="nome" name="nome" required placeholder="Fulano de tal">
                 </fieldset>
-                <fieldset>
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
+                <fieldset class="fieldset">
+                    <label class="label" for="email">E-mail:</label>
+                    <input class="input" type="email" id="email" name="email" required placeholder="fulanodetal@email.com">
                 </fieldset>
-                <fieldset>
-                    <label for="data_nascimento">Data de Nascimento:</label>
-                    <input type="date" id="data_nascimento" name="data_nascimento" required>
+                <fieldset class="fieldset">
+                    <label class="label" for="senha">Senha:</label>
+                    <input class="input" type="password" id="senha" name="data_nascimento" required>
+                </fieldset> 
+                <fieldset class="fieldset">
+                    <label class="label" for="conf_senha">Confirmar senha:</label>
+                    <input class="input" type="password" id="conf_senha" name="data_nascimento" required>
                 </fieldset>
-                <fieldset>
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone" name="telefone" required>
+                <fieldset class="fieldset">
+                    <label class="label" for="data_nascimento">Data de Nascimento:</label>
+                    <input class="input" type="date" id="data_nascimento" name="data_nascimento" required>
                 </fieldset>
-                <fieldset>
-                    <label for="idade">Idade:</label>
-                    <input type="number" id="idade" name="idade" required>
+                <fieldset class="fieldset">
+                    <label class="label" for="telefone">Telefone:</label>
+                    <input class="input" type="tel" id="telefone" name="telefone" required placeholder="(55) 987654321">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <label class="label" for="matricula">Matrícula:</label>
+                    <input class="input" type="number" id="matricula" name="matricula" required placeholder="2023654321">
                 </fieldset>
                 <!-- Adicione mais campos do formulário conforme necessário -->
-                <button type="submit">Enviar</button>
+                <button class="button" type="submit">Enviar</button>
             </form>
         </section>
     </main>
