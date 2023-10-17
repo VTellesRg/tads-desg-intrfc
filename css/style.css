@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
 
-/* Reset de estilos padrão do navegador */
 
 html {
     background: linear-gradient(180deg, #152aaf 0%, #18203f 90%);
@@ -12,7 +11,6 @@ html {
     box-sizing: border-box;
 }
 
-/* Estilos gerais */
 body {
     flex-direction: column;
     align-items: center;
@@ -44,6 +42,12 @@ header {
     color: #fff;
 }
 
+img {
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
 .input {
     box-sizing: border-box;
     display: flex;
@@ -53,18 +57,13 @@ header {
     width: 406px;
     height: 62px;
     background: rgb(175, 175, 175);
-    border:
-        
-        1px solid #2d293d;
-    border-radius:
-        46px;
+    border: 1px solid #2d293d;
+    border-radius: 46px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size:
-        16px;
-    line-height:
-        24px;
+    font-size: 16px;
+    line-height: 24px;
     color: #F5F5F5;
 
 }
@@ -75,28 +74,16 @@ header {
     justify-content: center;
     align-items: center;
     column-gap: 10px;
-    /* Set a gap of 10px */
     width: 406px;
-    /* 406px */
     height: 62px;
-    /* 62px */
     background: linear-gradient(180deg, #24242b 0%, #414c7a 100%);
-    /* orange */
-    border:
-        /* 1px */
-        1px solid #2d293d;
-    border-radius:
-        /* 46px */
-        46px;
+    border: 1px solid #2d293d;
+    border-radius: 46px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size:
-        /* 16px */
-        16px;
-    line-height:
-        /* 24px */
-        24px;
+    font-size: 16px;
+    line-height: 24px;
     color: #F5F5F5;
 }
 
@@ -105,21 +92,19 @@ fieldset {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size:
-        16px;
-
-    line-height:
-        24px;
-
+    font-size: 16px;
+    line-height: 24px;
     color: #FFFFFF;
     margin: 0px 0px 1.667vw 0px;
-    margin-left:
-        8px;
+    margin-left: 8px;
 
 }
 
 .logo {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     font-size: 24px;
 }
 
